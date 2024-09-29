@@ -11,22 +11,22 @@ export default function MainApp() {
 
       <div className="flex gap-14">
         <button
-          className="bg-green-500 text-white font-bold size-16 rounded-md hover:bg-green-600 transition duration-300"
+          className="bg-green-500 text-white font-bold size-16 rounded-md hover:bg-green-600 transition duration-300 justify-center text-center align-middle"
           onClick={() => setCount(count + 1)}
         >
-          +
+          <span className="text-4xl align-middle justify-center">+</span>
         </button>
         <button
           className="bg-red-500 text-white font-bold size-16 rounded hover:bg-red-600 transition duration-300"
           onClick={() => setCount(count - 1)}
         >
-          -
+          <span className="text-4xl align-middle justify-center">-</span>
         </button>
         <button
           className="bg-yellow-500 text-white font-bold size-16 rounded hover:bg-yellow-600 transition duration-300"
           onClick={() => setCount(0)}
         >
-          Reset
+          <span className="text-1xl align-middle justify-center">Reset</span>
         </button>
       </div>
     </div>
